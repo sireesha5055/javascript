@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1.5rem;
+}
+#cards{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.card{
+    width:23%;
+    text-align: center;
+    box-shadow: 0 0 4px 3px pink;
+    padding: 1.5rem;
+    margin-bottom: 2em;
+    }
+    .images{
+        width:80%;
+
+    }
+
+    .title{
+        font-size: 1.3 rem;
+    }
+    .category{
+        font-weight: bold;
+        text-transform: capitalize;
+        margin: 1rem;
+        font-size: 1.2rem;
+
+    }
+    

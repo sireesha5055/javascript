@@ -1,0 +1,25 @@
+<html>
+<body>
+
+<h1>JavaScript Strings</h1>
+<h2>The match() Method</h2>
+
+<p>Perform a global search for "ain":</p>
+
+<p id="demo"></p>
+<p id="demo2"></p>
+
+<script>
+let text = "The rain in SPAIN stays mainly in the plain"; 
+const myArr = text.match("ain");
+document.getElementById("demo").innerHTML = myArr.length + " " + myArr;
+let text0 = "Hello world, welcome to the universe.";
+document.getElementById("demo").innerHTML = text0.startsWith("Hello");
+let text2 = "I love cats. Cats are very easy to love. Cats are very popular."
+const iterator = text2.matchAll("Cats");
+
+document.getElementById("demo2").innerHTML = Array.from(iterator);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+
+    li{
+        display: flex;
+        float: left;}
+a{
+    display: flexbox;
+    padding: 8px;
+    color: white;
+    background-color: rgb(64, 64, 64);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px;
+}
+
+h3 {
+    padding-left: 4ch;
+    padding-top: 1cm;
+}
+
+p {
+    line-height: 0cm;
+    font-size: 70px;
+    padding-left: 1ch;
+    padding-top: 0cm;
+    font-weight: bolder;
+
+}
+
+p1 {
+    padding: 20px;
+    padding-left: 4ch;
+    padding-top: 0ch;
+}
+
+input {
+    padding-top: 29px;
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 80%;
+    height: 20%;
+
+}
+
+.card {
+    background-color: #ede1fd;
+    width: 80%;
+    height: 45%;
+    margin-left: 4ch;
+    border-radius: 20px;
+    margin-top: 3ch;
+
+}
+
+.card img {
+    
+    width: 35%;
+    height: 76%;
+    margin-left: 40px;
+    
+}
+
+.search-container {
+    height: 30%;
+    width: 90%;
+    margin-left: 4ch;
+
+}
+
+button {
+
+    height: 50%;
+    width: 10%;
+    padding:16px 3px 15px 16px;
+    padding-left: 2ch;
+    padding-top: 4ch;
+    padding-bottom: 0cm;
+    border-radius: 3px;
+    background-color: rgba(27, 6, 73, 0.499);
+}
+
+
+.btn{
+    border: none;
+    color: white;
+    padding:10px 20px 10px 10px;
+    margin-left: 30px;
+    font-size: 16px;
+    border-radius: 7px;
+    margin-top: 10px;
+    width: 17%;
+    margin-bottom: 6%;
+}
+.success {background-color:black;} 
+.cards{
+    display:flex;
+}
+.card2{
+background-color:blue;
+padding: 3cm;
+margin-left: 8ch;
+margin-top: 3ch;
+margin-right: 9ch;
+padding-bottom: 0cm;
+border-radius: 18px;
+
+}
+h2{
+    font-size: 30px;
+}
+h4{
+    float: left;
+}
+.success {background-color:black;
+padding:2ch 4ch 1ch 3ch ;
+text-align: center;
+
+} 
+p4{
+    padding-left: 9cm;
+    font-size: large;
+    font-weight:600;
+} 
+.img2 {
+    box-sizing: border-box;
+  }
+  .column {
+    display: flex;
+    float: left;
+    width: 45.33%;
+    padding: 5px;
+    padding-left: 5ch;
+    padding-right: 3ch;
+    padding-bottom: 3ch;
+    padding-top: 2ch;
+  }
+  

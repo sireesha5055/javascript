@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model </title>
+</head>
+
+<body>
+    <!-- this is for id -->
+    <div id="view">
+        <h1>This is Header </h1>
+        <p>This is Paragraph</p>
+    </div>
+    <div class="special">
+        <h1>This is Header </h1>
+        <p>This is Paragraph</p>
+    </div>
+    <div class="special">
+        <h1>This is Header </h1>
+        <p>This is Paragraph</p>
+    </div>
+    <p class="example">A paragraph.</p> 
+    <h1 id="demo">siri</h1>
+
+<script>
+    let k= document.querySelector("p.example").style.backgroundColor = "red";
+    console.log(k);
+    const v = document.querySelector("#demo").innerHTML='hello world ';
+    <!--DOM -- Document object model-->
+        const view = document.getElementsById("special");
+        console.log(view);
+        const view1 = document.getElementsByClassName("special");
+        console.log(special);
+        const views=document.getElementsByClassName("view");
+        console.log(views);
+        console.log(vie)
+    </script>
+</body>
+
+</html>
